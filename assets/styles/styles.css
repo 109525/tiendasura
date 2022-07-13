@@ -1,0 +1,26 @@
+.banner{
+    background-image: url("../img/death-note.jpg");
+    padding: 15% 30% 50% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.29;
+    z-index: -1;
+}
+.fuente{
+    font-family: 'Caveat', cursive;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
